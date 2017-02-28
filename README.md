@@ -19,3 +19,8 @@ Add the powerline fonts:
     git clone https://github.com/powerline/fonts.git fonts
     cd fonts
     bash ./install.sh
+
+Install fuzzfinder:
+
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    ~/.fzf/install
