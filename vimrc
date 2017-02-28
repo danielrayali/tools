@@ -1,4 +1,4 @@
-execute pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
 execute pathogen#helptags()
 
 nnoremap <C-J> <C-W><C-J>
@@ -7,8 +7,6 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 colorscheme molokai
-syntax enable
-set syntax=on
 set splitbelow
 set splitright
 set tabstop=4
@@ -18,6 +16,9 @@ set expandtab
 set autoindent
 set ruler
 set nu
+
+set laststatus=2
+let g:airline_powerline_fonts=1
 
 autocmd BufWritePre * :%s/\s\+$//e
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
