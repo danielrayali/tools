@@ -7,6 +7,11 @@ Create symlinks:
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
+If you use tmux, you can use the provide tmux.conf
+
+    ln -s ~/.vim/tmux.conf ~/.tmux.conf
+    tmux kill-server # Will kill current tmux sessions but will reload config on next instance
+
 Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
