@@ -21,6 +21,7 @@ set mouse=nicr
 
 set laststatus=2
 let g:airline_powerline_fonts=1
+let g:gitgutter_sign_column_always=1
 
 autocmd BufWritePre * :%s/\s\+$//e
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
