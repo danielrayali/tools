@@ -31,7 +31,7 @@ Install fuzzfinder:
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
     ~/.fzf/install
 
-In my traditional setup (Ubuntu 16.04/gnome-terminal/tmux/Terminus), there's a known [bug with the powerline fonts](https://github.com/powerline/fonts/issues/50). To get around it, I had to allow bitmap fonts. There's a step not listed in the link provided:
+In my traditional setup (Ubuntu 14.04/gnome-terminal/tmux/Terminus), there's a known [bug with the powerline fonts](https://github.com/powerline/fonts/issues/50). To get around it, I had to allow bitmap fonts. There's a step not listed in the link provided:
 
     cd /etc/fonts/conf.d/
     sudo rm 70-no-bitmaps.conf # The non-provided step
