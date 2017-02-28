@@ -17,6 +17,7 @@ set autoindent
 set ruler
 set nu
 set timeoutlen=1000 ttimeoutlen=0
+set mouse=nicr
 
 set laststatus=2
 let g:airline_powerline_fonts=1
