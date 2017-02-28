@@ -12,3 +12,10 @@ Switch to the `~/.vim` directory, and fetch submodules:
     cd ~/.vim
     git submodule init
     git submodule update
+
+Add the powerline fonts:
+
+    cd ~/source/
+    git clone https://github.com/powerline/fonts.git fonts
+    cd fonts
+    bash ./install.sh
