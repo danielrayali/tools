@@ -4,9 +4,6 @@
 [submodule "bundle/colorschemes"]
 	path = bundle/colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
-[submodule "bundle/syntax"]
-	path = bundle/syntax
-	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
