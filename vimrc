@@ -38,3 +38,19 @@ nnoremap <C-V> :call fzf#run({
 \   'right': winwidth('.') / 2,
 \   'sink':  'vertical botright split' })<CR>
 
+" Configuration of tabs for Makefiles
+let _curfile = expand("%:t")
+if _curfile =~ "Makefile" || _curfile =~ "makefile" || _curfile =~ ".*\.mk"
+set noexpandtab
+else
+set expandtab
+set tabstop=4
+set shiftwidth=4
+endif
+
+" Mapping multi-cursor selections
+let g:multi_cursor_use_default_mapping = 0
+let g:multi_cursor_next_key='<C-d>'
+let g:multi_cursor_prev_key='<C-u>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
