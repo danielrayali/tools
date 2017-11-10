@@ -1,18 +1,18 @@
-[submodule "bundle/fugitive"]
-	path = bundle/fugitive
+[submodule "vim/bundle/fugitive"]
+	path = vim/bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
-[submodule "bundle/colorschemes"]
-	path = bundle/colorschemes
+[submodule "vim/bundle/colorschemes"]
+	path = vim/bundle/colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
-[submodule "bundle/gitgutter"]
-	path = bundle/gitgutter
+[submodule "vim/bundle/gitgutter"]
+	path = vim/bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
-[submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
-[submodule "bundle/syntax"]
-	path = bundle/syntax
+[submodule "vim/bundle/syntax"]
+	path = vim/bundle/syntax
 	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
-[submodule "bundle/vim-multiple-cursors"]
-	path = bundle/vim-multiple-cursors
+[submodule "vim/bundle/vim-multiple-cursors"]
+	path = vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors
