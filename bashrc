@@ -126,5 +126,5 @@ alias debug='libtool --mode=execute gdb --args'
 
 export TERM=xterm-256color
 export EDITOR=vim
-export PATH="$PATH:~/.bin/:~/scripts/fstash/"
+export PATH="$PATH:~/.bin/"
 
