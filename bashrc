@@ -117,14 +117,14 @@ fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-export TERM=xterm-256color
 
 alias sm='git submodule update --recursive --init'
 alias s='git status'
 alias b='git branch'
+alias make='make -j`nproc`'
+alias debug='libtool --mode=execute gdb --args'
 
-alias t='python ~/.t/t.py --task-dir ~/.t/tasks --list tasks'
+export TERM=xterm-256color
+export EDITOR=vim
+export PATH="$PATH:~/.bin/:~/scripts/fstash/"
 
-export EDITOR=nvim
-PATH=$PATH:~/scripts/fstash/
-alias steponsnek='echo No step on snek'
