@@ -16,7 +16,7 @@ cp config.git ~/.gitconfig
 
 # Install packages
 echo Installing packages...
-sudo apt install -y vim tree make g++ git &> /dev/null
+sudo apt install -y htop vim python tree make g++ git &> /dev/null
 
 # Install binary tools
 echo Making and installing binary tools...
