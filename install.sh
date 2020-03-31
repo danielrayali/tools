@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 # Download and install fzf
 echo Installing fzf...
 if [ ! -d "$HOME/.fzf" ]; then
