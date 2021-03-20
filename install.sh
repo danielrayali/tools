@@ -13,6 +13,8 @@ fi
 echo Installing configurations...
 cp config.bash ~/.bashrc
 cp config.vim ~/.vimrc
+mkdir -p ~/.config/nvim/
+ln -s ~/.vimrc ~/.config/nvim/init.vim
 cp fzf-key-bindings.bash ~/.fzf/shell/key-bindings.bash
 cp config.git ~/.gitconfig
 
