@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
     if (argc != 2) {
-        cout << "dth - Converts decimal values to hexidecimal" << endl;
+        cout << "hex - Converts decimal values to hexidecimal" << endl;
         cout << "Usage: " << argv[0] << " <decimal>" << endl;
         return 1;
     }
