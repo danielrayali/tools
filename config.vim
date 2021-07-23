@@ -44,3 +44,5 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 " Add support for fzf search in vim
 set rtp+=~/.fzf
+
+set directory=~/.config/nvim/swap
